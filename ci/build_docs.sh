@@ -30,8 +30,8 @@ if [ "$DOC" ]; then
     echo # Log file for the doc build  #
     echo ###############################
 
-    echo python make.py
-    python make.py
+    echo ./make.py
+    ./make.py
 
     echo ########################
     echo # Create and send docs #
