@@ -435,4 +435,5 @@ def main():
 
 if __name__ == '__main__':
     import sys
+    print('python version: ', sys.version)
     sys.exit(main())
