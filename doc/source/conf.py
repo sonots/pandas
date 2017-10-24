@@ -17,6 +17,8 @@ import inspect
 import importlib
 from pandas.compat import u, PY3
 
+print('sphinx python version: ', sys.version)
+
 try:
     raw_input          # Python 2
 except NameError:
